@@ -1,0 +1,10 @@
+version: '3'
+services:
+  postgres:
+    image: postgres
+    environment:
+      POSTGRES_DB: wongames
+      POSTGRES_USER: wongames
+      POSTGRES_PASSWORD: wongames123
+    ports: 
+      - 5432:5432
