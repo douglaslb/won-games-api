@@ -17,6 +17,10 @@
     },
     "slug": {
       "type": "uid"
+    },
+    "games": {
+      "via": "publisher",
+      "collection": "game"
     }
   }
 }
