@@ -31,4 +31,4 @@ The urls to access are:
 
 ## Next Steps
 
-- A SQL Dump to populate database
+- Create a Data Scraper to populate API
