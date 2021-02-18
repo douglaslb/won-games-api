@@ -29,6 +29,11 @@ The urls to access are:
 
 *The first time to access the Admin you'll need to create an user.*
 
-## Next Steps
+## Populate Database
 
-- Create a Data Scraper to populate API
+- To populate the database using our `data scraping` to extract the data from [gog.com](http://gog.com), first you need to set the `/populate` route as a public route in the following path inside the [Strapi panel](http://localhost:1337/admin/settings/users-permissions/roles/2) and check the checkbox `populate`.
+- Once you have the `/populate` route as a public one, just run the following command in the terminal:
+
+    ```jsx
+    curl -X POST http://localhost:1337/games/populate
+    ```
